@@ -69,3 +69,8 @@ robot_project/
 * **Hardware Abstraction:** The core decision logic (`class Robot`) remains completely independent of the environment, ensuring quick adaptation between simulation and real-world microcontrollers.
 * **Sense-Think-Decide-Act Loop:** Continuous evaluation of sensor inputs with precise timing loops to minimize physical hardware strain.
 * **Fail-Safe Mechanism:** Instant wheel stabilization and stop triggers upon detecting tight-boundary breaches.
+
+---
+
+## 📂 Source Code
+The complete functional object-oriented script logic can be found directly in the [`deva.robotic.py`](./deva.robotic.py) file within this repository.
